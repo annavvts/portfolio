@@ -1,0 +1,272 @@
+body {
+	font-family: "Scada", "Arial", sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 400;
+	color: black;
+	width: 1200px;
+	margin: 0 auto;
+	/*background-image: url("../img/bg-4.png");
+	background-size: 10%;*/
+	background-color: aliceblue;
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+}
+
+h4 {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+    max-width: 800px;
+}
+
+.active {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.not-active {
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	padding: 10px;
+	transition: all 0.3s ease;
+}
+
+.not-active:hover {
+	background-color: black;
+	color: white;
+}
+
+.menu li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.menu li:nth-child(2) {
+	float: right;
+}
+
+.menu {
+	border: 4px solid black;
+	padding: 25px;
+	margin-top: 10px;
+	background-color: white;
+}
+
+.menu ul {
+	width: 940px;
+	margin: 0 auto;
+}
+
+main {
+	padding: 50px 15px;
+	margin: 0 auto;
+	width: 1200px;
+	line-height: 30px;
+	background-color: white;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.projects {
+	padding: 20px;
+	font-size: 0;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 940px;
+}
+
+.projects article {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 18px;
+	width: 300px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+
+.projects article img:hover {
+	outline: 3px solid black;
+}
+
+.projects article:nth-child(3n+3) {
+	margin-right: 0;
+}
+
+.projects article:hover {
+
+}
+
+.code {
+	display: block;
+	color: black;
+	font-weight: 700;
+	padding: 10px;
+	padding-left: 28px;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	transition: all 0.3s ease;
+}
+
+.code:hover {
+	background-color: black;
+	color: white;
+}
+
+.description {
+	padding-left: 30px;
+	font-size: 14px;
+	position: relative;
+}
+
+.description:before {
+	content: "";
+	position: absolute;
+	left: 1px;
+	top: 5px;
+    width: 19px;
+    height: 19px;
+    background-image: url("../img/checked.svg");
+    background-size: 19px;
+}
+
+.skills {
+	padding-left: 30px;
+	margin-top: 15px;
+	font-size: 14px;
+	position: relative;
+}
+
+.skills:before {
+	content: "";
+	position: absolute;
+	left: 1px;
+	top: 4px;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/settings.svg");
+    background-size: 20px;
+}
+
+.contacts {
+	margin-top: 20px;
+	margin-right: 50px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.contacts span {
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.contacts a {
+	color: black;
+}
+
+.email {
+	position: relative;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed black;
+}
+
+.email:before {
+	position: absolute;
+	content: "";
+	background-image: url("../img/email.svg");
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 20px;
+	top: 7px;
+	left: 0;
+}
+
+.github {
+	position: relative;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+.github:after {
+	position: absolute;
+	content: "";
+	background-image: url("../img/github.svg");
+	background-repeat: no-repeat;
+	background-size: 26px 20px;
+	width: 30px;
+	height: 20px;
+	top: 16px;
+    left: -3px;
+}
+
+.cv {
+	margin-top: 20px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 100px;
+}
+
+.cv span {
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.cv a {
+	color: black;
+	font-weight: 700;
+	display: block;
+	padding: 10px;
+	padding-right: 38px;
+	text-decoration: none;
+	text-align: center;
+	transition: all 0.3s ease;
+	border: 1px dashed black;
+	position: relative;
+}
+
+.cv a:after {
+	position: absolute;
+	content: "";
+	background-image: url("../img/download-down-arrow.svg");
+	background-repeat: no-repeat;
+	background-size: 30px 20px;
+	top: 14px;
+    right: 4px;
+	width: 30px;
+	height: 20px;
+	transition: all 0.3s ease;
+}
+
+.cv a:hover:after {
+	background-image: url("../img/download-down-arrow-white.svg");
+}
+
+.cv a:hover {
+	background-color: black;
+	color: white;
+}
