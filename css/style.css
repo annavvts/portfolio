@@ -103,6 +103,10 @@ main {
 	margin-bottom: 30px;
 }
 
+.projects article:last-child {
+	display: none;
+}
+
 
 .projects article img:hover {
 	outline: 3px solid black;
